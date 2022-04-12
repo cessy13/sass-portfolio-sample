@@ -1,0 +1,8 @@
+SASS Set-up
+Terminal:
+1. npm init
+2. npm install node-sass
+3. change script test to
+	"scripts": {"sass": "node-sass -w scss/ -o dist/css/ --recursive"} 
+4. create a project folder scss-main.scss
+5. npm run sass
